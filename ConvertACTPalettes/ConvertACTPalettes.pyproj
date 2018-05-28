@@ -11,6 +11,9 @@
     <OutputPath>.</OutputPath>
     <Name>ConvertACTPalettes</Name>
     <RootNamespace>ConvertACTPalettes</RootNamespace>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <CommandLineArguments>*.act</CommandLineArguments>
+    <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
